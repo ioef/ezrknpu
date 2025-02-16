@@ -1,5 +1,5 @@
 #!/bin/bash
-# Title: ntop.sh
+# Title: install.sh
 # Author: Pelochus
 # Brief: Basic installation script for Rockchip NPUs, including LLMs and RKNN Toolkit 2
 # Check for more info: https://github.com/Pelochus/ezrknpu/
@@ -52,7 +52,7 @@ message_print "Cloning main repo with submodules..."
 
 # This also clones submodules
 # Add --remote-submodules if you want to update submodules to latest commit and not current repo commit
-git clone --recurse-submodules -j2 https://github.com/Pelochus/ezrknpu
+git clone --recurse-submodules -j2 https://github.com/ioef/ezrknpu
 cd ezrknpu
 
 message_print "Updating submodules..."
